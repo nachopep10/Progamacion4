@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.registro-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0d0d0d, #1a0033, #330066);
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff33ff, 0 0 40px #ff66ff;
+  margin-bottom: 30px;
+}
+
+form {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #ff00ff;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #00ffff;
+  border-radius: 6px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Orbitron', sans-serif;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 6px #00ffff;
+}
+
+.input-group input:focus {
+  border-color: #ff00ff;
+  box-shadow: 0 0 12px #ff00ff, 0 0 24px #ff33ff;
+}
+
+.neon-btn {
+  padding: 12px 20px;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  background: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+
+.neon-btn:hover {
+  background: #00ffff;
+  color: #000;
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff, 0 0 60px #00ffff;
+}
+.salir-btn {
+  display: inline-block;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #ff00ff;
+  color: #ff00ff;
+  box-shadow: 0 0 6px #ff00ff, 0 0 12px #ff33ff;
+}
+
+.salir-btn:hover {
+  background: #ff00ff;
+  color: #000;
+  box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff33ff, 0 0 60px #ff66ff;
+}

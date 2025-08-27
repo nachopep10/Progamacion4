@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0d0d0d, #1a0033, #330066);
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff33ff, 0 0 40px #ff66ff;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  font-size: 1.2rem;
+  color: #ccc;
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h2 {
+  color: #ff00ff;
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px #ff00ff, 0 0 16px #ff33ff;
+}
+
+.card p {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px #00ffff, 0 0 50px #ff00ff;
+}
+
+/* Botón volver */
+.neon-btn.volver-btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+.neon-btn.volver-btn:hover {
+  background: #00ffff;
+  color: #000;
+  box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff, 0 0 60px #ff66ff;
+}

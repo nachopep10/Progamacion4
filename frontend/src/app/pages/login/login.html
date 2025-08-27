@@ -1,1 +1,19 @@
-<p>login works!</p>
+<div class="login-container">
+  <h1 class="titulo">🔐 Iniciar Sesión</h1>
+  <p class="subtitulo">Accede al Portal Cyberpunk</p>
+
+  <form class="login-form">
+    <div class="input-group">
+      <input type="text" placeholder="Usuario" required />
+    </div>
+    <div class="input-group">
+      <input type="password" placeholder="Contraseña" required />
+    </div>
+
+    <button type="submit" class="btn neon-btn">Entrar</button>
+    <a routerLink="/" class="btn neon-btn salir-btn">Salir</a>
+  </form>
+
+  <p class="extra">¿No tienes cuenta? <a href="../registro/">Regístrate</a></p>
+</div>
+
